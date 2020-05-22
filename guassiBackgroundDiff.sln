@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "guassiBackgroundDiff", "guassiBackgroundDiff\guassiBackgroundDiff.vcxproj", "{0FE7639C-1AB6-4EFE-8154-706EA8059084}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FE7639C-1AB6-4EFE-8154-706EA8059084}.Debug|x64.ActiveCfg = Debug|x64
+		{0FE7639C-1AB6-4EFE-8154-706EA8059084}.Debug|x64.Build.0 = Debug|x64
+		{0FE7639C-1AB6-4EFE-8154-706EA8059084}.Debug|x86.ActiveCfg = Debug|Win32
+		{0FE7639C-1AB6-4EFE-8154-706EA8059084}.Debug|x86.Build.0 = Debug|Win32
+		{0FE7639C-1AB6-4EFE-8154-706EA8059084}.Release|x64.ActiveCfg = Release|x64
+		{0FE7639C-1AB6-4EFE-8154-706EA8059084}.Release|x64.Build.0 = Release|x64
+		{0FE7639C-1AB6-4EFE-8154-706EA8059084}.Release|x86.ActiveCfg = Release|Win32
+		{0FE7639C-1AB6-4EFE-8154-706EA8059084}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DE41CA5-12EC-4F8F-82EB-E38B430B2436}
+	EndGlobalSection
+EndGlobal
