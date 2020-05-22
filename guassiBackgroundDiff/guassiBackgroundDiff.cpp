@@ -94,6 +94,7 @@ int main()
 	cv::Mat varMat;
 	cv::Mat dstMat;
 
+
 	while (true)
 	{
 		capVideo >> frame;
