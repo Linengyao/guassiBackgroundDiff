@@ -68,11 +68,8 @@ int gaussianThreshold(cv::Mat srcMat, cv::Mat meanMat, cv::Mat varMat, float wei
 
 int main()
 {
-	//实例化的同时初始化
-	//VideoCapture capture("D:\\opencv_picture_test\\videos\\video1.avi");		//类似于 int a=1;
-	//----------------------读取视频文件--------------------------
+	//打开摄像头
 	VideoCapture capVideo(0);
-	//VideoCapture capVideo("../testImages\\vtest.avi");
 
 	//如果视频打开失败
 	if (!capVideo.isOpened()) {
@@ -95,7 +92,7 @@ int main()
 	cv::Mat dstMat;
 
 
-	while (true)
+	while (1)
 	{
 		capVideo >> frame;
 		cvtColor(frame, frame, COLOR_BGR2GRAY);
@@ -125,9 +122,7 @@ int main()
 			imshow("frame", frame);
 			waitKey(30);
 		}
-
 		cnt++;
-
 	}
 
 	return 0;
